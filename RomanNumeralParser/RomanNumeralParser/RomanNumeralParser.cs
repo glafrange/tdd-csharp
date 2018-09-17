@@ -27,8 +27,6 @@ namespace RomanNumeralParser
 
 		public static int Parse(string numeralsInput)
 		{
-			
-
 			char[] numerals = numeralsInput.ToCharArray();
 
 			int sum = 0;
