@@ -14,7 +14,6 @@ namespace Fizzbuzz
 	{
 		static public string CheckNumber(int number)
 		{
-			//return number % 3 == 0 ? "Fizz" : number.ToString();
 			if (number % 3 == 0 && number % 5 == 0)
 			{
 				return "FizzBuzz";
